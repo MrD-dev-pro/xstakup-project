@@ -1,0 +1,33 @@
+.legal_container{
+    margin-bottom: 50px;
+    background-color: #fbfdfd;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, .3);
+    
+
+}
+.terms_condition{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.terms{
+    font-size: 90px;
+}
+.terms_last{
+    text-align: center;
+    
+}
+
+
+.legal_card{
+    padding: 20px;
+    margin-left: 30px;
+    max-width: 1000px;
+    line-height: 40px;
+    color: rgb(38, 37, 37);
+  }

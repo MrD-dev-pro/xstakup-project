@@ -1,0 +1,79 @@
+.policy_body{
+  margin-top: 300px;
+  margin-bottom:120px ;
+}
+.policy{
+    font-size: 90px;
+    text-align: center;
+  }
+  #policy{
+    font-size: 90px;
+    color: #0094c7;
+    font-weight: 600;
+  }
+  .last{
+        text-align: center;
+        font-size: 18px;
+  }
+  .sub-container{
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+  
+    
+  }
+  .container{
+    margin-bottom: 20px;
+  }
+  
+  .card{
+  
+    box-shadow: 2px 3px 4px rgba(rgb(248, 247, 247), rgb(226, 228, 226), rgb(143, 143, 144), .2);
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    background-color: #fff;
+  }
+  .intro_1, .intro_2, .intro_3, .intro_4, .intro_5, .intro_6, .intro_7, .intro_8{
+      padding-top: 30px;
+  }
+   .intro_9, .intro_10, .intro_11, .intro_12, .intro_13, .intro_14, .intro_15, .intro_16{
+    padding-top: 30px;
+  }
+  .intro1, .intro2, .intro3, .intro4, .intro5, .intro6, .intro7, .intro8{
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    color: #0094c7;
+     
+  }
+  .intro9, .intro10, .intro11, .intro12, .intro13, .intro14, .intro15, .intro16 {
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    color: #0094c7;
+  }
+  .intro_17, .intro_18, .intro_19, .intro_20{
+    padding-top: 30px;
+  }
+  .intro17, .intro18, .intro19, .intro20 {
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    color: #0094c7;
+  }
+  .text{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(145, 145, 145);
+  }
+  

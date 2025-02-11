@@ -4,7 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
 
+  
+}
 html {
   scroll-behavior: smooth;
   user-select: none;
@@ -15,12 +20,114 @@ html {
 
 body {
   margin: 0;
-  font-family: "Poppins", serif;
+  font-family: "Poppins,san serif";
+  font-size: 17px;
+  height: 100%;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
+  background-color: #f8f6f6;
 
 }
+
+
+/*
+.address{
+  border: 1px solid #d3cfcf;
+  margin-top: 50px;
+  width: 700px;
+  height: 400px;
+  background: url('eko.png');
+}
+.addCont{
+  margin: 48px;
+}*/
+.cont{
+  display: flex;
+  background-color: #c1d7df;
+}
+/* Button Style */
+.lets-talk-button {
+  background-color: #0094c7;  
+  border: none;                
+  padding: 5px 8px;          
+  border-radius: 50px;          
+  cursor: pointer;            
+  display: inline-block;       
+   
+  transition: background-color 0.3s, transform 0.3s ease; /* Smooth transition */
+  text-align: center;          
+}
+.newAlign{
+  margin-left: 210px;
+  margin-right: 0px;
+}
+.logo{
+  margin-left: 8rem;
+}
+
+/* Change the link style inside the button */
+.lets-talk-button {
+  color: white;              
+  text-decoration: none;      
+  display: block; 
+  padding: 15px 30px;
+  border: none;
+  z-index: 1;
+  border-radius: 12px;
+  position: relative;
+  outline: none;
+  overflow: hidden;
+ 
+
+
+}
+@keyframes glow {
+  0%{
+    box-shadow: 0 0 10px #0094c7, 0 0 20px #0094c7;
+  }
+  50%{
+    box-shadow: 0 0 20px #8abcdb, 0 0 30px #8abcdb;
+  }
+  100%{
+    box-shadow: 0 0 10px #0094c7, 0 0 20px #0094c7;
+  }
+}
+@keyframes rotate {
+      from{
+        transform: rotate(-360deg);
+      }
+      to{
+        transform: rotate(360deg);
+      }
+}
+
+/* Hover effect for the button */
+.lets-talk-button:hover {
+  background-color: #0094c7;  
+  transform: scale(1.05); 
+  box-shadow: 0 0 20px rgba(62, 179, 241, 0.8);
+  animation:glow 3s linear infine, rotate 5s linear infinite;
+      
+}
+
+/* Active effect for when the button is pressed */
+.lets-talk-button:active {
+  background-color: #159dca; 
+  transform: scale(0.98);     
+  opacity: 0.9;               
+}
+
+
+.paraServices{
+  font-size: 17px;
+  font-weight: lighter;
+  color: #0b0a0a;
+  letter-spacing:0.1rem;
+
+}
+
+
 
 .cursor-trail {
   mix-blend-mode: luminosity;
@@ -193,4 +300,72 @@ button {
     left: 0
       /* transform: translateX(0px); */
   }
+}
+.footer_body{
+  display: flex;
+  justify-content: space-between;
+}
+.all_components{
+  display: flex;
+  justify-content: space-between;
+
+}
+.component_1{
+  margin-left:30px;
+  line-height:30px;
+  
+}
+.component_2{
+  line-height:30px;
+  
+}
+.copyRight{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.copyRight_sub{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_sec{
+  margin-bottom: 50px;
+  background-color: #fbfdfd;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, .3);
+}
+.about_sub{
+  margin: 40px;
+}
+
+.how{
+  margin-bottom: 50px;
+  background-color: #fbfdfd;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, .3);
+}
+.how_sub{
+  margin: 40px;
+}
+.Our_mission{
+  margin-bottom: 50px;
+  background-color: #fbfdfd;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, .3);
+}
+.Our_main{
+  margin: 40px;
 }

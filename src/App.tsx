@@ -1,12 +1,15 @@
-
+import React from 'react';
 import { useEffect } from 'react';
 import Navbar from './components/navbar';
-import Home from './pages/home';
+import Portfolio from './pages/Portfolio';
 import Footer from './components/footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './pages/services';
 import Contact from './pages/contact';
 import About from './pages/about';
+import Home from './pages/Home';
+import Privacy from './pages/privacy';
+import Legal from './pages/legal';
 
 function App() {
   // const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 })
@@ -55,15 +58,20 @@ function App() {
   }, [])
   return (
     <Router>
-      <div id="main" className='w-[100%] bg-[#fff] flex flex-col items-center'>
-        <div className='min-h-[100vh] max-w-[1740px] w-[100%] w-full px-[10%] '>
-          <Navbar />
+    
+      <div id="main" className='.main-container w-[100%] bg-[#fff] flex flex-col items-center'>
+      <Navbar />
+        <div className='min-h-[100vh] max-w-[1740px] w-[100%] w-full  '>
+          
 
           <Routes>
             <Route path='/' element={<Home />} />
+           <Route path='/contact-us' element={<Contact />} />
+            <Route path='/Portfolio' element={<Portfolio />} />
             <Route path='/services' element={<Services />} />
-            <Route path='/contact-us' element={<Contact />} />
             <Route path='/about-us' element={<About />} />
+            <Route path='/privacy' element={<Privacy />} />
+            <Route path='/Legal' element={<Legal />} />
           </Routes>
           {/* <Home /> */}
         </div>
